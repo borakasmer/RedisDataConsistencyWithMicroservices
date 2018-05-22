@@ -1,0 +1,26 @@
+﻿@model News
+
+<link rel="stylesheet" href="~/css/table.css" />
+    <div class="container">
+        <div class="jumbotron">
+            <h2>@Model.Title</h2>
+        </div>
+        @{
+            var date=Model.UpdatedDate==null?Model.CreatedDate:Model.UpdatedDate;
+        }
+        <div align="right"><b>@date</b></div>
+        <div>
+            <div>
+                <h3>@Model.Detail</h3>
+            </div>
+            <table class="table">                                
+                    <tr>                                                                                                                                                    
+                        <td>                                                   
+                            <div>
+                                <img src="/images/@Model.Image" width="500px">
+                            </div>                                                    
+                        </td>                                              
+                    </tr>                                     
+            </table>            
+        </div>
+    </div>

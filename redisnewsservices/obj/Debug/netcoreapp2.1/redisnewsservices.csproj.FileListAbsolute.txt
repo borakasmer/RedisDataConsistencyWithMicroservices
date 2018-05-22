@@ -1,0 +1,11 @@
+/Users/borakasmer/redisnewsservices/obj/Debug/netcoreapp2.1/redisnewsservices.csprojAssemblyReference.cache
+/Users/borakasmer/redisnewsservices/obj/Debug/netcoreapp2.1/redisnewsservices.csproj.CoreCompileInputs.cache
+/Users/borakasmer/redisnewsservices/obj/Debug/netcoreapp2.1/redisnewsservices.AssemblyInfoInputs.cache
+/Users/borakasmer/redisnewsservices/obj/Debug/netcoreapp2.1/redisnewsservices.AssemblyInfo.cs
+/Users/borakasmer/redisnewsservices/bin/Debug/netcoreapp2.1/redisnewsservices.deps.json
+/Users/borakasmer/redisnewsservices/bin/Debug/netcoreapp2.1/redisnewsservices.runtimeconfig.json
+/Users/borakasmer/redisnewsservices/bin/Debug/netcoreapp2.1/redisnewsservices.runtimeconfig.dev.json
+/Users/borakasmer/redisnewsservices/bin/Debug/netcoreapp2.1/redisnewsservices.dll
+/Users/borakasmer/redisnewsservices/bin/Debug/netcoreapp2.1/redisnewsservices.pdb
+/Users/borakasmer/redisnewsservices/obj/Debug/netcoreapp2.1/redisnewsservices.dll
+/Users/borakasmer/redisnewsservices/obj/Debug/netcoreapp2.1/redisnewsservices.pdb

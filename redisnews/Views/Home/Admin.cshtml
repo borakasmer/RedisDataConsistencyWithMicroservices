@@ -1,0 +1,40 @@
+@model News
+<div class="container">
+    <div class="jumbotron">
+        <h2>Borsoft News® Admin</h2>
+    </div>
+    <div align="right"><b>@DateTime.Now</b></div>       
+    <form asp-controller="Home" asp-action="UpdateNews" method="post" enctype="multipart/form-data">
+    <div>             
+         <table class="table">                                
+             <tr>                                                                                                                                                    
+                 <td>                                                   
+                     <b>Haber Başlığı :</b>
+                 </td>       
+                 <td>
+                      <input type="text" name="Title" id="Title" value="@Model.Title" size="100">
+                 </td>                                       
+             </tr>   
+             <tr>                                                                                                                                                    
+                 <td>                                                   
+                       <b>Haber İçeriği :</b>
+                 </td>       
+                 <td>
+                       <textarea rows="5" cols=120 name="Detail" id="Detail" >@Model.Detail</textarea>
+                 </td>                                       
+             </tr>  
+             <tr>
+                 <td>
+                       <b>Haber Resimi : </b>
+                 </td>
+                 <td>
+                      <input type="hidden" name="Image" value="@Model.Image">
+                      <img src="/images/@Model.Image" width="250px"><br><br>
+                      <input type="file" name="NewsImage" id="NewsImage"/>                             
+                 </td>
+             </tr>                                                  
+         </table>         
+             <div align="center"><button type="submit" class="btn btn-primary" style="width:50%" name="Image" id="Image">Güncelle</button></div>   
+    </div>
+    </form>
+</div>
