@@ -1,4 +1,8 @@
 @model News
+    @if(Model.IsError)
+    {
+        <script>alert("Kayıtda tutarsızlık bulunmaktadır!");</script>
+    }
 <div class="container">
     <div class="jumbotron">
         <h2>Borsoft News® Admin</h2>
@@ -29,6 +33,7 @@
                  </td>
                  <td>
                       <input type="hidden" name="Image" value="@Model.Image">
+                      <input type="hidden" name="UpdatedDate" value="@Model.UpdatedDate">
                       <img src="/images/@Model.Image" width="250px"><br><br>
                       <input type="file" name="NewsImage" id="NewsImage"/>                             
                  </td>
